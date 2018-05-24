@@ -11,7 +11,7 @@ class Dog
   
   def self.all 
     @@all.each do |dog|
-      push dog 
+      push dog.name
     end 
   end 
   
